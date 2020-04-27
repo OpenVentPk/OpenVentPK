@@ -34,47 +34,48 @@ We are also relying upon the following assumptions:
 ### Technical Specification of OpenVentpk Design 1 (OVPD-1)
 The following Table has been vetted against the requirements put forward in the second edition (11/04/2020) of Pakistan Engineering Council (PEC) document titled *Fast Track Acceptance Test Procedure for Locally Manufactured Mechanical Ventilators for ICU*  
 1.	Modes of Ventilation:  
-    1.1.1.	 Controlled Modes  
+    1. Controlled Modes  
         1.	PCV  
         2.	VCV  
-    1.1.2.	 Assist Modes:  
+    2.	 Assist Modes:  
         1.	AC-PC  
         2.	AC-VC  
 2.	Set Parameters   
-    i)	PEEP (5cm of H2O upto 20cm of H20)  
-    ii)	FiO2 (50-60% and 90-100%)  
-    iii)	Tidal Volume (200-700)  
-    iv)	I:E Ratio (1:1 to 1:3)  
-    v)	Triggering (flow triggering -0.5 to 5 litres per minute)  
-    vi)	Respiratory rate(8-35 per minute)]  
-    vii)	Pressure Control (0-40 cm H2O)  
+    1.	PEEP (5cm of H2O upto 20cm of H20)  
+    2.	FiO2 (50-60% and 90-100%)  
+    3.	Tidal Volume (200-700)  
+    4.	I:E Ratio (1:1 to 1:3)  
+    5.	Triggering (flow triggering -0.5 to 5 litres per minute)  
+    6.	Respiratory rate(8-35 per minute)]  
+    7.  Pressure Control (0-40 cm H2O)  
 3.	Measured Parameters  
-    i)	Expired Tidal Volume  
-    ii)	Respiratory Rate (Based on input from O2,flow & pressure sensors)  
-    iii)	Plateau Pressure (Every breath)  
-    iv)	Peak Airway Pressure   
-    v)	FiO2   
+    1.	Expired Tidal Volume  
+    2.	Respiratory Rate (Based on input from O2,flow & pressure sensors)  
+    3.	Plateau Pressure (Every breath)  
+    4.	Peak Airway Pressure   
+    5.	FiO2   
 4.	Cycling  
-    i)	Flow  
-    ii)	Pressure  
-    iii)	Volume  
+    1.	Flow  
+    2.	Pressure  
+    3.	Volume  
 5.	Alarms:  
-    i)	Battery backup  
-    ii)	Circuit Integrity (Hardware watchdog)  
-    iii)	High  and Low Breath Rate  
-    iv)	Peak Inspiratory Pressure   
-    v)	High FiO2  
-    vi)	Oxygen Failure (Pressure switch to be used)    
-    vii)	Tidal Volume  
-    viii)	Minute Volume  
-    ix)	Disconnection (patient not present)  
-    x)	96 hours of operation  
+    1.	Battery backup  
+    2.	Circuit Integrity (Hardware watchdog)  
+    3.	High  and Low Breath Rate  
+    4.	Peak Inspiratory Pressure   
+    5.	High FiO2  
+    6.	Oxygen Failure (Pressure switch to be used)    
+    7.	Tidal Volume  
+    8.	Minute Volume  
+    9.	Disconnection (patient not present)  
+    10.	96 hours of operation  
 6.	Non Invasive Ventilation(NIV): Optional and preferable   
 7.	Electrical Connections: Equipment to provide standard electrical connections  
 8.	Peak Inspiratory Flow Rate-   
     Ventilator should be able to manage peak inspiratory flow rates up to 100lpm  
 9.	Safety Valve:  (Manual valve) to avoid sudden unexpected increase in pressure. 
 10.	Self-test: Automatic test(s): Performed by the device upon itself when switched on, to detect any malfunction, a missing component, or a change in its configuration with a test lung
+<<<<<<< HEAD
 
 ### Documents Required for Ventilator Approvals  
 The following documents are meant to provide a checklist of the requirements put forward in the second edition (11/04/2020) of Pakistan Engineering Council (PEC) document titled Fast Track Acceptance Test Procedure for Locally Manufactured Mechanical Ventilators for ICU.  
@@ -193,3 +194,5 @@ Most of the designs in opensource are based on mechanical compression of bag val
 
 
 
+=======
+>>>>>>> 9a178d66078b1e46f4c4665f073e6e7e8e11e03f
