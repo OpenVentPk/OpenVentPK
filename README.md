@@ -76,3 +76,120 @@ The following Table has been vetted against the requirements put forward in the 
 9.	Safety Valve:  (Manual valve) to avoid sudden unexpected increase in pressure. 
 10.	Self-test: Automatic test(s): Performed by the device upon itself when switched on, to detect any malfunction, a missing component, or a change in its configuration with a test lung
 
+### Documents Required for Ventilator Approvals  
+The following documents are meant to provide a checklist of the requirements put forward in the second edition (11/04/2020) of Pakistan Engineering Council (PEC) document titled Fast Track Acceptance Test Procedure for Locally Manufactured Mechanical Ventilators for ICU.  
+#### OpenVentPk Specifications  
+This document should include the following things:  
+1.	General Information about type of ventilation
+    1.	Invasive and non-invasive
+    2.	For adults.
+    3.	Clinical Environments :- Hospitals, institutions, transport, Home Care
+    4.	Alarm volume: Range in decibels
+    5.	Battery Power: Timings for continuous use
+    6.	Power Sources: AC (wall plugin) DC external batteries
+    7.	Battery backup ( at least 1 hour up to 3 hours): Timings 
+    8.	External Power Requirements: AC power, dc power
+    9.	Physical Dimensions  : Weight, height, depth
+    10.	User Interface: Display Size, Types of Buttons
+    11.	Operating Environments: Temperature, humidity, Pressure
+    12.	Electromagnetic Compatibility and Protection: Standards Implemented
+    13.	Electro Static Discharge (ESD) levels.
+2.	Controls:
+    1. Breath Rate  
+    2. PEEP
+	3. FiO2
+	4. Flow Cycle
+	5. IPAP
+	6. Tidal Volume
+	7. Time Cycle
+	8. Modes of ventilation:
+        1. Pressure Controlled Ventilation (PCV)
+	    2. Volume Controlled Ventilation (VCV)
+	    3. Assist Control-Pressure Control(AC-PC)
+      	4. Assist Control- Volume Control (AC-PC)
+3.	Alarms:
+    1. Battery 
+    2. Circuit Integrity
+    3. High breath rate
+    4. High FiO2
+    5. High PEEP
+    6. Low Breath Rate
+    7. Low FiO2
+    8. Low Inspiratory Pressure
+    9. Low Peep
+    10. Oxygen Failure
+    11. Tidal Volume
+    12. Minute Volume
+    13. Patient Disconnection
+4.	Components 
+    1. Bill of material
+    2. Component specifications
+### OpenVentPk Manual  
+The ventilator manual at minimum must contain the following information in an easy to understand language:
+1.	General Information
+2.	Device Description
+3.	Technical specifications
+4.	Equipment Symbols
+5.	Safety Information
+6.	Installation
+7.	Operation
+8.	Revision History (if Any)
+9.	Disassembly and Assembly
+10.	Software Download Procedure
+11.	Calibration Procedure
+12.	Operational Verification Procedure
+13.	Troubleshooting
+14.	Maintenance and Cleaning
+15.	Appendix (schematics, control diagrams, codes)  
+### OpenVentPk Compliance & Test Report
+This report is a major report for software, hardware, functional and clinical testing of the ventilator:  
+1.	Introduction
+2.	Technical Specifications
+3.	Compliance and Testing procedure
+4.	Calibration Testing of Ventilator
+5.	Software testing of Ventilator 
+6.	Hardware Testing of Ventilator 
+7.	Functional Testing of Ventilator
+8.	Clinical Testing of Ventilator  
+### Current Progress:
+Most of the designs in opensource are based on mechanical compression of bag valve mechanism (BVM) also known as ambubag, based on a seminal project at MIT [5]. We would like to acknowledge learning from all opensource projects in the world, including MIT e-vent. This design iteration basically revolves around OpenVentPk has divided the project into several milestones. We have been following a rigorous design process and a standard way of developing such a complicated device. The progress of the milestones are as under:  
+
+| **S.No.** | **Milestone**                                        | **Status**                |
+|-------|--------------------------------------------------|-----------------------|
+|       | **Design Phase**                                     |                       |
+| 1     | Understanding the ventilator operation in detail | √                     |
+| 2     | Taking input from the doctors                    | √                     |
+| 3     | Finalizing the functional requirements           | √                     |
+| 4     | Developing a system level diagram                | √                     |
+| 5     | Selection of compression mechanisms              | √                     |
+| 6     | Development of a pseudo code                     | √                     |
+| 7     | Development of Electrical flow                   | √                     |
+| 8     | Finalizing of sensors                            | √                     |
+| 9     | Development of a Compliance and QA document      | √                     |
+| 10    | UI design input from Doctors and developers      | √                     |
+|       |                                                  |                       |
+|       | **Implementation Phase**                             |                       |
+| 11    | Procurement of required items                    | √                     |
+| 12    | 3D printing of compression mechanisms            | √                     |
+| 13    | Cutting of other mechanisms                      | √                     |
+| 14    | Implementation of electrical circuit             | In process            |
+| 15    | Implementation of Final code                     | In process            |
+| 16    | Implementation of sensors                        | In process            |
+| 17    | Implementation of UI on Tablet & Server          | In process            |
+| 18    | Assembling of the prototype                      | In process            |
+| 19    | Calibration of all equipment                     | In process            |
+|       |                                                  |                       |
+|       | **Documentation Phase**                              |                       |
+| 1     | OpenVentPk manual                                | In process            |
+| 2     | OpenVentPk Specifications                        | In process            |
+| 3     | OpenVentPk Compliance & Test reports             | In process            |
+|       |                                                  |                       |
+|       | **Clinical Trials and Testing**                      | **Not Started**           |
+|       | **Approvals from PEC, DRAP etc**                    | **Not Started**           |
+|       | **Clinical trials in Hospitals**                     | **Approvals being taken** |
+|       | **Onboarding of large scale manufacturing Setups**   | **In process**            |
+|       | **Mass scale manufacturing**                         | **Not started**           |
+
+
+
+
