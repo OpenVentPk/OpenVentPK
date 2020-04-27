@@ -35,11 +35,11 @@ We are also relying upon the following assumptions:
 The following Table has been vetted against the requirements put forward in the second edition (11/04/2020) of Pakistan Engineering Council (PEC) document titled *Fast Track Acceptance Test Procedure for Locally Manufactured Mechanical Ventilators for ICU*  
 1.	Modes of Ventilation:  
     1.1.1.	 Controlled Modes  
-        (a)	PCV  
-        (b)	VCV  
+        1.	PCV  
+        2.	VCV  
     1.1.2.	 Assist Modes:  
-        (a)	AC-PC  
-        (b)	AC-VC  
+        1.	AC-PC  
+        2.	AC-VC  
 2.	Set Parameters   
     i)	PEEP (5cm of H2O upto 20cm of H20)  
     ii)	FiO2 (50-60% and 90-100%)  
