@@ -75,7 +75,6 @@ The following Table has been vetted against the requirements put forward in the 
     Ventilator should be able to manage peak inspiratory flow rates up to 100lpm  
 9.	Safety Valve:  (Manual valve) to avoid sudden unexpected increase in pressure. 
 10.	Self-test: Automatic test(s): Performed by the device upon itself when switched on, to detect any malfunction, a missing component, or a change in its configuration with a test lung
-<<<<<<< HEAD
 
 ### Documents Required for Ventilator Approvals  
 The following documents are meant to provide a checklist of the requirements put forward in the second edition (11/04/2020) of Pakistan Engineering Council (PEC) document titled Fast Track Acceptance Test Procedure for Locally Manufactured Mechanical Ventilators for ICU.  
@@ -157,6 +156,7 @@ Most of the designs in opensource are based on mechanical compression of bag val
 
 | **S.No.** | **Milestone**                                        | **Status**                |
 |-------|--------------------------------------------------|-----------------------|
+|       |                                                  |                       |
 |       | **Design Phase**                                     |                       |
 | 1     | Understanding the ventilator operation in detail | √                     |
 | 2     | Taking input from the doctors                    | √                     |
@@ -191,8 +191,62 @@ Most of the designs in opensource are based on mechanical compression of bag val
 |       | **Onboarding of large scale manufacturing Setups**   | **In process**            |
 |       | **Mass scale manufacturing**                         | **Not started**           |
 
+The following pictures currently present a glimpse of the work being done.
+![block diagram version 3](img/block-diagram-v3.jpg)  
+![control box prototype](img/control-box-prototype.jpg)  
+![isometric view of design iteration 4](img/isometric-view-of-design-iteration-4.jpg)  
+![isometric view of design iteration 2](img/isometric-view-of-design-iteration-2.jpg)  
+![Human Machine Interface (in software testing with simulated inputs](img/HMI.jpg)  
+![schematics](img/schmatics.png)  
+#### Software Architecture  
+![flowchart](img/flow-chart-v1.png)  
+ 
+#### Bill of Materials  
+| S.No | Items                            | Specs                                             | Qty         |
+|------|----------------------------------|---------------------------------------------------|-------------|
+| 1    | Arduino                          | Mega2560                                          | 1           |
+| 2    | Stepper Motor                    | NEMA 23                                           | 2           |
+| 3    | Stepper Motor  Driver            | A4988                                             | 1           |
+| 5    | LCD 20x4 I2C insterface          | 20x4 LCD with I2C or without I2C                  | 1           |
+| 6    | Buzzer (Alaram)                  | 5v Active Buzzer Magnetic Long Continous Beep Ton | 1           |
+| 7    | Switch                           | toggle 2way (3 pin)                               | 3           |
+| 8    | Limit switch                     | 3 wire button with lever                          | 1           |
+| 9    | Keypad                           | 3x4 Keypad                                        | 1           |
+| 10   | Push buttons                     | Micro switch                                      | 2           |
+| 11   | Adaptor or Charger               | 12 Volt , 4.5A                                    | 1           |
+| 12   | Vero-Board                       | (Square) 24.5cm x 10cm                            | 2           |
+| 13   | Single wire header (male/female) | 20cm M2M and M2F                                  | 2+2         |
+| 14   | Soldering Wire                   | 30/70    tin / lead alloy solder                  | 1           |
+| 15   | Cpacitors                        | 0.1uf, 4.7uf, 47uf ,220uf                         | 50+10+10+10 |
+| 16   | Resistors                        | Sheet                                             | 3           |
+| 17   | Transistor                       | 2n2222a   ,   BD139                               | 5+5         |
+| 18   | Barrek Jack                      | rated 5Amp                                        | 1           |
+| 19   | Ferrit bead                      | 22uH/3A                                           | 1           |
+| 20   | Fuse with holder                 | 5Amp                                              | 1           |
+| 21   | Leds                             | Red , Green, Yellow                               | 5+5+5       |
+| 22   | Soft wires roll                  |  (Red , yellow,Black)                             | 1+1+1       |
+| 23   | Shrink Sleeve                    | 2mm                                               | 1  mtr      |
+|      | Soldering past                   |                                                   |             |
+| 24   | Crimp Connector                  | 16 Pin , with lock                                | 1           |
+|      | Regulator IC                     | 7805 , 7812                                       | 2+2         |
+| 25   | Heat sinks for 7805,7812,BD139   |                                                   | 3           |
+| 26   | Sensors                          | 1. Kavlico P1J (Digital I2C)                      | 1           |
+|      |                                  | 2. Flow Sensor SFM3200                            |             |
+|      |                                  | 3. EnviteC O2 Sensor OOM102                       |             |
+| 27   | Peep valve with diverters        |                                                   | 1           |
+| 28   | Test lung with circuit           |                                                   | 1           |
+| 29   | Ambu bag                         |                                                   | 1           |  
+### How can you contribute?
+We have got many resources onboard with us now. Initially we did have some issues but now there are enough people onboard. However, you can look at the progress and see where your skills are likely to be useful. For-example, if you have connections with PEC or DRAP or other regulatory authorities or if you have people who are interested in mass manufacturing.   
+Secondly, we have enough funds to cater for the requirements by several volunteers at the moment, but once our prototype crosses the approvals phase, we would be needing a lot of support in terms of manufacturing ability to make sure we are able to realize this dream. And that means a lot of funds to actually build a large number of these. 
+If you think you cannot contribute in anyway, we would love that you sincerely pray for our team that May Allah reward them for their efforts. That would be one of the best gifts we can ask for.   
+You can contact the team:  
 
+**Muhammad Umair Arif**  
+Team Lead  
++92-336-8515895  
+Umair.arif.m@gmail.com  
 
-
-=======
->>>>>>> 9a178d66078b1e46f4c4665f073e6e7e8e11e03f
+**Dr. Bilal Siddiqui**  
++92-335-3461598  
+pacvresponse@gmail.com  
