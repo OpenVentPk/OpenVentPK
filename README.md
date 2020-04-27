@@ -54,25 +54,25 @@ The following Table has been vetted against the requirements put forward in the 
     iii)	Plateau Pressure (Every breath)  
     iv)	Peak Airway Pressure   
     v)	FiO2   
-4.	Cycling
-    i)	Flow
-    ii)	Pressure
-    iii)	Volume
-5.	Alarms:
-    i)	Battery backup
-    ii)	Circuit Integrity (Hardware watchdog)
-    iii)	High  and Low Breath Rate
-    iv)	Peak Inspiratory Pressure 
-    v)	High FiO2
-    vi)	Oxygen Failure (Pressure switch to be used)
-    vii)	Tidal Volume
-    viii)	Minute Volume
-    ix)	Disconnection (patient not present)
-    x)	96 hours of operation
-6.	Non Invasive Ventilation(NIV): Optional and preferable 
-7.	Electrical Connections: Equipment to provide standard electrical connections
-8.	Peak Inspiratory Flow Rate- 
-    Ventilator should be able to manage peak inspiratory flow rates up to 100lpm
-9.	Safety Valve:  (Manual valve) to avoid sudden unexpected increase in pressure.
+4.	Cycling  
+    i)	Flow  
+    ii)	Pressure  
+    iii)	Volume  
+5.	Alarms:  
+    i)	Battery backup  
+    ii)	Circuit Integrity (Hardware watchdog)  
+    iii)	High  and Low Breath Rate  
+    iv)	Peak Inspiratory Pressure   
+    v)	High FiO2  
+    vi)	Oxygen Failure (Pressure switch to be used)    
+    vii)	Tidal Volume  
+    viii)	Minute Volume  
+    ix)	Disconnection (patient not present)  
+    x)	96 hours of operation  
+6.	Non Invasive Ventilation(NIV): Optional and preferable   
+7.	Electrical Connections: Equipment to provide standard electrical connections  
+8.	Peak Inspiratory Flow Rate-   
+    Ventilator should be able to manage peak inspiratory flow rates up to 100lpm  
+9.	Safety Valve:  (Manual valve) to avoid sudden unexpected increase in pressure. 
 10.	Self-test: Automatic test(s): Performed by the device upon itself when switched on, to detect any malfunction, a missing component, or a change in its configuration with a test lung
 
