@@ -198,6 +198,8 @@ The following pictures currently present a glimpse of the work being done.
 <p align="center"><img src="img/isometric-view-of-design-iteration-2.jpg"></p>  
 <p align="center"><img src="img/HMI.jpg"></p>  
 <p align="center"><img src="img/schmatics.png"></p>    
+
+
 #### Software Architecture  
 <p align="center"><img src="img/flow-chart-v1.png"></p>    
  
