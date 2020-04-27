@@ -33,27 +33,27 @@ We are also relying upon the following assumptions:
 - Transportation will be impaired/disrupted.  Locally available non-medical supplies and equipment readily available at local hardware stores such as sprinkler valves and PVC tubing will be used.   
 ### Technical Specification of OpenVentpk Design 1 (OVPD-1)
 The following Table has been vetted against the requirements put forward in the second edition (11/04/2020) of Pakistan Engineering Council (PEC) document titled *Fast Track Acceptance Test Procedure for Locally Manufactured Mechanical Ventilators for ICU*  
-1.	Modes of Ventilation:
-    1.1.1.	 Controlled Modes
-        (a)	PCV
-        (b)	VCV
-    1.1.2.	 Assist Modes:
-        (a)	AC-PC
-        (b)	AC-VC
-2.	Set Parameters 
-    i)	PEEP (5cm of H2O upto 20cm of H20)
-    ii)	FiO2 (50-60% and 90-100%)
-    iii)	Tidal Volume (200-700)
-    iv)	I:E Ratio (1:1 to 1:3)
-    v)	Triggering (flow triggering -0.5 to 5 litres per minute)
-    vi)	Respiratory rate(8-35 per minute)]
-    vii)	Pressure Control (0-40 cm H2O)
-3.	Measured Parameters
-    i)	Expired Tidal Volume
-    ii)	Respiratory Rate (Based on input from O2,flow & pressure sensors)
-    iii)	Plateau Pressure (Every breath)
-    iv)	Peak Airway Pressure 
-    v)	FiO2 
+1.	Modes of Ventilation:  
+    1.1.1.	 Controlled Modes  
+        (a)	PCV  
+        (b)	VCV  
+    1.1.2.	 Assist Modes:  
+        (a)	AC-PC  
+        (b)	AC-VC  
+2.	Set Parameters   
+    i)	PEEP (5cm of H2O upto 20cm of H20)  
+    ii)	FiO2 (50-60% and 90-100%)  
+    iii)	Tidal Volume (200-700)  
+    iv)	I:E Ratio (1:1 to 1:3)  
+    v)	Triggering (flow triggering -0.5 to 5 litres per minute)  
+    vi)	Respiratory rate(8-35 per minute)]  
+    vii)	Pressure Control (0-40 cm H2O)  
+3.	Measured Parameters  
+    i)	Expired Tidal Volume  
+    ii)	Respiratory Rate (Based on input from O2,flow & pressure sensors)  
+    iii)	Plateau Pressure (Every breath)  
+    iv)	Peak Airway Pressure   
+    v)	FiO2   
 4.	Cycling
     i)	Flow
     ii)	Pressure
