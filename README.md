@@ -1,4 +1,4 @@
-![Open Source Ventilator](img/logo.png)
+<p align="center"><img src="img/logo.png"></p>  
 
 ### Background  
 The Covid-19 novel coronavirus epidemic has taken the world by storm. From humble beginnings in Wuhan, China at the end of 2019, it has gone on to infect more than a million people with a case fatality rate of more than 5%. Complications may include pneumonia and acute respiratory distress syndrome (ARDS). There is no known vaccine or specific antiviral drug treatment. It is estimated that 30% of Covid-19 hospitalized patients are likely to require mechanical ventilation [1].  However, there is a huge gap which appears to be widening every day between supply and demand of ventilators, so much so that doctors are forced to make life and death decisions due to shortage thereof [2]. The price of ventilators has jumped by 150% due to unbridled free market mechanics [3]. This has driven engineers across to world to find cheap, affordable and quick solutions to expensive branded ventilators where traditional manufacturers are struggling to meet demand. Many, but not all, of these efforts are open sourced by the inventors, meaning that they can be manufactured and improved upon without the fuss and commercial greed associated with patents and licenses in this hour of need for humanity.   
@@ -191,15 +191,15 @@ Most of the designs in opensource are based on mechanical compression of bag val
 |       | **Onboarding of large scale manufacturing Setups**   | **In process**            |
 |       | **Mass scale manufacturing**                         | **Not started**           |
 
-The following pictures currently present a glimpse of the work being done.
-![block diagram version 3](img/block-diagram-v3.jpg)  
-![control box prototype](img/control-box-prototype.jpg)  
-![isometric view of design iteration 4](img/isometric-view-of-design-iteration-4.jpg)  
-![isometric view of design iteration 2](img/isometric-view-of-design-iteration-2.jpg)  
-![Human Machine Interface (in software testing with simulated inputs](img/HMI.jpg)  
-![schematics](img/schmatics.png)  
+The following pictures currently present a glimpse of the work being done.  
+<p align="center"><img src="img/block-diagram-v3.jpg"></p>    
+<p align="center"><img src="img/control-box-prototype.jpg"></p>  
+<p align="center"><img src="img/isometric-view-of-design-iteration-4.jpg"></p>    
+<p align="center"><img src="img/isometric-view-of-design-iteration-2.jpg"></p>  
+<p align="center"><img src="img/HMI.jpg"></p>  
+<p align="center"><img src="img/schmatics.png"></p>    
 #### Software Architecture  
-![flowchart](img/flow-chart-v1.png)  
+<p align="center"><img src="img/flow-chart-v1.png"></p>    
  
 #### Bill of Materials  
 | S.No | Items                            | Specs                                             | Qty         |
